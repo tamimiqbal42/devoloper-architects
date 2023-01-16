@@ -1,0 +1,404 @@
+:root {
+    --p-color: #727272;
+    --btn-color: #FF900E;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.top-architects {
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+
+/*-------------------
+         header of Architects 
+ ------------*/
+.containar{
+    width: 100%;
+    height: 100%;
+}
+.g3-architects {
+    display: flex;
+
+}
+
+.g3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+
+.sp-3 {
+    color: var(--btn-color);
+}
+
+.anchors {
+    text-decoration: none;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 400px;
+    margin-top: 55px;
+    gap: 30px;
+    color: #424242;
+}
+
+.anchors a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+/* ---------main part of architects-------- */
+.type {}
+
+.architects-title {
+    width: 862px;
+    height: 225px;
+    font-size: 56px;
+    margin-left: 200px;
+    padding-top: 80px;
+    text-align: center;
+    color: #131313;
+}
+
+.architecrs-pera {
+    width: 750px;
+    height: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #727272;
+    margin-left: 240px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    color: #ffffff;
+    background-color: var(--btn-color);
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 550px;
+    margin-bottom: 40px;
+}
+
+.btn:hover {
+    transform: scale(.98);
+    transition: transform 1s linear;
+    cursor: pointer;
+    box-shadow:inset 3px 3px 8px rgb(197, 192, 192);
+    transition: transform .5s linear;
+}
+.architects-img {
+    
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    margin-left: 130px;
+}
+
+/*--------- image section of meeting --------*/
+.containar {
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: var(--p-color);
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.containar img {
+    width: 300px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.quick-list {
+    justify-content: flex-end;
+    width: 25%;
+
+}
+
+.quick-h2 {
+    width: 100%;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* padding: 60px 0; */
+}
+
+.quick-pera {
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: #727272;
+    padding: 25px 0;
+}
+
+.btn-2 {
+    width: 180px;
+    height: 64px;
+    color: #ffffff;
+    background-color: var(--btn-color);
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn-2:hover{
+    cursor: pointer;
+    box-shadow:inset 3px 3px 8px rgb(197, 192, 192);
+    transition: transform .5s linear;
+}
+
+.section-1 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 20px auto;
+}
+
+.descriptiion-head .section-title {
+    border-left: 5px solid var(--btn-color);
+    font-size: 40px;
+}
+
+.descriptiion-head p {
+    color: var(--p-color);
+    margin: 10px 0;
+}
+
+.descriptiion-title {
+    box-shadow: 3px 3px 8px rgb(226, 224, 224);
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.descriptiion-title h3 {
+    margin: 10px 0;
+}
+.descriptiion-title p{
+    color: var(--p-color);
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    /* width: 488px;
+    height: 682px; */
+}
+
+.btn-3 {
+    position: absolute;
+    top: 83%;
+    
+    left: 50%;
+}
+
+.big-btn {
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: var(--btn-color);
+    cursor: pointer;
+    width: 220px;
+    height: 120px;  
+    padding: 20px 30px;
+    border-radius: 8px;
+    font-size: 18px;   
+}
+/*======== variations of passages section ========*/
+.last-section {
+    width: 80%;
+    margin: 30px auto;
+
+}
+
+.last-description {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.last-description h2 {
+    margin: 20px 0;
+}
+
+.last-description p {
+    color: var(--p-color);
+}
+
+.icons {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icons-style {
+    border: 1px solid var(--btn-color);
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    color: rgb(67, 66, 66);
+}
+
+.icons-style img {
+    margin: 30px 0;
+}
+
+.icons-style:hover {
+    border-radius: 8px;
+    color: rgb(50, 50, 50);
+    transform: scale(.98);
+    transition: transform 1s linear;
+    cursor: pointer;
+    box-shadow:inset 3px 3px 8px rgb(197, 192, 192);
+    transition: transform .5s linear;
+}
+
+/*======== sponsor section ========*/
+
+.sponsor-section {
+    width: 40%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.all-sponsor {
+    display: flex;
+    gap: 80px;
+    margin-left: 20px;
+    padding: 30px;
+}
+
+.logo {
+    filter: grayscale(100%);
+}
+
+.logo:hover {
+    filter: grayscale(0%);
+}
+
+.all-sponsor img {
+    width: 100%;
+}
+
+/*  sponsor section end */
+
+footer {
+    position: absolute;
+    width: 75%;
+    height: 85px;
+    margin: 0 150px;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF4E7;
+    color: var(--p-color);
+    padding: 40px 0;
+}
+
+/*====== For Mobile Devise =====*/
+@media screen and (max-width: 576px) {
+    body{
+        flex-direction: column;
+    }
+
+    .g3-architects{
+        text-align: center;
+        display: inline-block;
+    }
+    .anchors{
+        display: inline;
+        justify-content: center;
+    }
+    .architects-title {
+        align-items: center;
+        flex-direction: column;
+    }
+    .architecrs-pera{
+
+    }
+    .quick-list{
+        width: 75%;
+    }
+    .btn{
+        flex-direction: column;
+
+    }
+    .description{
+        width: 75%;
+    }
+    .image{
+        position: relative;
+        display: block;
+        flex-direction: column;
+    }
+    .btn-3 .big-btn{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;         
+    }
+    .architects-img{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .containar .images{
+        display: block;
+        flex-direction: column;
+    }
+    .containar {
+        flex-direction: column;
+    }
+    .section-1 .image{
+        display: inline;
+        flex-direction: column;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .all-sponsor{
+        flex-direction: column;
+    }
+    
+    .last-description{
+        width: 75%;
+        height: 30%;
+        /* margin: 50px; */
+        margin-left: 30px;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        height: 15%;
+        margin-left: 5px;
+    }
+}
